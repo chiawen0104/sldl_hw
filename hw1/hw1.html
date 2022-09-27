@@ -15473,7 +15473,12 @@ jp-needs-light-background
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="./Q3-1.png" alt="Image"></p>
+<p>$ \text{If } w_j^* = \frac{\sum_{i=1}^{n}(y_i- {\tilde{w}}_{-j}^{T}x_{i,-j}-w_0)x_{i,j}}{\sum_{i=1}^{n}x_{i,j}^2}  \text{, then} $</p>
+<p>$ w_j = \left\{\begin{array}{l} 
+w_j^* - \frac{n \lambda_j}{\sum_{i=1}^{n}x_{i,j}^2} \text{, if } w_j^* - \frac{n \lambda}{\sum_{i=1}^{n}x_{i,j}^2} &gt; 0 \\
+w_j^* + \frac{n \lambda_j}{\sum_{i=1}^{n}x_{i,j}^2} \text{, if } w_j^* + \frac{n \lambda}{\sum_{i=1}^{n}x_{i,j}^2} &lt; 0  \\
+0 \qquad  \qquad \quad \text{, otherwise.} 
+\end{array}\right. $</p>
 
 </div>
 </div>
