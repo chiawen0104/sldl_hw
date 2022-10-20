@@ -1,3 +1,7 @@
 
 hw2/adult_m50k.pickle
 hw2/.DS_Store
+hw2/adult.test
+hw2/adult.data
+.DS_Store
+hw2/test.ipynb
